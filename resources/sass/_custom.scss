@@ -1,0 +1,92 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    // background-image: url(/images/background.jpg);
+
+    overflow-x: hidden;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 2px solid #dc3545;
+    padding-bottom: 3px;
+}
+
+// .main-heading {
+//     border-width: 6px;
+//     border-style: solid;
+//     border-color: white;
+// }
+
+.display-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    padding-left: 150px;
+    font-size: 30px;
+}
+
+.nav-item {
+    font-size: 15px;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+.carousel > img {
+    width: 100%;
+    height: 50%;
+}
+
+.transparent-jumbotron {
+    padding-top: 0px;
+
+    height: 350px;
+    display: block;
+    position: relative;
+}
+
+.transparent-jumbotron::after {
+    content: "";
+    background-image: url(/images/books.jpg);
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+// .container-fluid {
+//     padding: 0%;
+// }
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+
+    // width: 75%;
+}
+
+.row {
+    padding-top: 25px;
+}
+
+form {
+    max-width: 450px;
+    margin: 1rem auto;
+    padding: 2rem;
+    color: gray;
+}
+.form-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-image {
+    max-width: 150px;
+    padding-bottom: 15px;
+}
